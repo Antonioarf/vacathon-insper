@@ -35,15 +35,19 @@
     flex-direction: column;
     justify-content: space-between;
     height: 80%;
+    align-items: stretch;
 }
 
 .item{
-    font-size: 2rem;
-    background-color: #ffffff;
-    margin: 1rem;
-    border-radius: 10px;
     font-family: 'Heebo', sans-serif;
-    text-decoration: none;
+    background-color: #ffffff;
+    font-size: 2rem;
+    margin: 2rem;
+    border-radius: 10px;
+    height: 25%;
+    width: 90%;
+    align-self: center;
+    align-items: center;
 }
 .item.esq{
     background-color: #c78e77;
