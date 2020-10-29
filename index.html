@@ -5,7 +5,8 @@
         <meta charset ="utf-8">
         <link href= "assets/index.css" rel= "stylesheet">
         <link href= "assets/reset.css" rel= "stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
+        <script src="assets/index.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Bitter&family=Heebo:wght@400;800&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Bitter&display=swap" rel="stylesheet">
         <meta name="viewport" content="width=device-width,initial-scale=1">
     </head>
@@ -14,34 +15,43 @@
             <h1 class="bem_vindo" > Seja Bem Vindo </h1>            
         </header>
         <div class="frame">
-            <!-- <a href="pre_lac.html" class ="link"> -->
+            
             <div class="coluna esquerda" >
-                <h2 class="titulo_coluna" >PRE LACTACAO</h2>
+            <a href="pre_lac.html" class ="link"><h2 class="titulo_coluna" >PRÉ LACTAÇÃO</h2></a>
                 <ul class="corpo">
-                <li class="item esq"> <p> Custo de alimentação:</p></li>
-                <li class="item esq"> <p>cotacao do custo de novilho/inseminacao</p> </li>
-                <li class="item esq">  <p>status/contagem dessas vacas</p></li>
-                <li class="item esq"> <p>historico das compras</p></li>                
-                <!-- <img src= "assets/bezerro.png" alt= "bezerro" > -->
+                <li class="item esq">
+                    <p class="texto" >Estão sendo gastos <span Id="din1"></span> reais por <button class="btn esq" onclick="trocaNome1()" Id="data1" >dia</button></p>
+                </li>
+                <li class="item esq">  <p class="texto">Temos ___ animais ainda não produtivos</p></li>
+                <li class="item esq"> <p class="texto">Cotar nova compra</p> </li>
+                <li class="item esq"> <p class="texto">Historico das compras</p></li>                
                 </ul>
             </div>
+            
             <div class= "coluna meio">
-                <h2 class="titulo_coluna">EM LACTACAO</h2>
+                <a href="em_lac.html" class ="link"><h2 class="titulo_coluna">EM LACTAÇÃO</h2></a>
                 <ul class="corpo">
-                <li class="item me"> <p>custo de alimentacao</p></li>
-                <li class="item me"> <p>producao atual </p></li>
-                <li class="item me"> <p>custo/litro + Kg alimento/litro</p></li>
-                <li class="item me"> <p>contagem e estatistica dessas vacas (quantas, idade, peso medio, tempo de lactacao)</p></li>
-                <!-- <img src= "assets/cow.png" alt= "vaca" > -->
+                <li class="item me">
+                    <p class="texto" >Estão sendo gastos <span Id="din3"></span> reais por <button class="btn me" onclick="trocaNome1()" Id="data2" >dia</button></p>
+                </li>
+                <li class="item me"> <p class="texto">Nossa produção atual é de ___ litros por dia</p></li>
+                <li class="item me"> <p class="texto">Estamos gastando ___ reais e ___ Kg de ração por litro produzido</p></li>
+                <li class="item me"> 
+                    <p class="texto">Vacas: ___ </p>
+                    <p class="texto"> Peso Médio: ___ </p> 
+                    <p class="texto">Idade Média: ___</p>
+                </li>
                 </ul>
             </div>
             <div class = "coluna direita">
-                <h2 class="titulo_coluna">POS LACTACAO</h2>
+                <a href="pos_lac.html" class ="link"><h2 class="titulo_coluna">PÓS LACTAÇÃO</h2></a>
                 <ul class="corpo">
-                <li class="item dir"> <p>custo atual de alimentacao </p></li>
-                <li class="item dir"> <p>(previsao de quanto tempo compensa segurar cada animal)  ##Colocar depois</p></li>
-                <li class="item dir"> <p>cotacao de venda</p></li>
-                <li class="item dir"><p>historico das vendas</p></li>
+                <li class="item dir">
+                    <p class="texto" >Estão sendo gastos <span Id="din3"></span> reais por <button class="btn dir" onclick="trocaNome1()" Id="data3" >dia</button></p>
+                </li>
+                <li class="item dir"> <p class="texto">(previsao de quanto tempo compensa segurar cada animal)  ##Colocar depois</p></li>
+                <li class="item dir"> <p class="texto">cotacao de venda</p></li>
+                <li class="item dir"><p class="texto">historico das vendas</p></li>
 			
                 </ul>
             </div>
