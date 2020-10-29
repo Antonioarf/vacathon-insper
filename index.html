@@ -2,23 +2,48 @@
 <html lang='pt-br'>
 	<head>
 		<title>Página principal</title>
-		<meta charset ="utf-8">
+        <meta charset ="utf-8">
+        <link href= "assets/index.css" rel= "stylesheet">
+        <link href= "assets/reset.css" rel= "stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bitter&display=swap" rel="stylesheet">
         <meta name="viewport" content="width=device-width,initial-scale=1">
     </head>
     <body>
         <header class="header">
-            <h1 class="bem_vindo" > Seja Bem Vindo</h1>            
+            <h1 class="bem_vindo" > Seja Bem Vindo </h1>            
         </header>
-        <ul>
-            <li class="coluna_esquerda">
-                <h2>PRE LACTACAO</h2>
-            </li>
-            <li class= "coluna_meio">
-                <h2>EM LACTACAO</h2>
-            </li>
-            <li class = "coluna direita">
-                <h2>POS LACTACAO</h2>
-            </li>
-        </ul>
+        <div class="frame">
+            <!-- <a href="pre_lac.html" class ="link"> -->
+            <div class="coluna esquerda" >
+                <h2 class="titulo_coluna" >PRE LACTACAO</h2>
+                <ul class="corpo">
+                <li class="item esq"> <p> Custo de alimentação:</p></li>
+                <li class="item esq"> <p>cotacao do custo de novilho/inseminacao</p> </li>
+                <li class="item esq">  <p>status/contagem dessas vacas</p></li>
+                <li class="item esq"> <p>historico das compras</p></li>                
+                <!-- <img src= "assets/bezerro.png" alt= "bezerro" > -->
+                </ul>
+            </div>
+            <div class= "coluna meio">
+                <h2 class="titulo_coluna">EM LACTACAO</h2>
+                <ul class="corpo">
+                <li class="item me"> <p>custo de alimentacao</p></li>
+                <li class="item me"> <p>producao atual </p></li>
+                <li class="item me"> <p>custo/litro + Kg alimento/litro</p></li>
+                <li class="item me"> <p>contagem e estatistica dessas vacas (quantas, idade, peso medio, tempo de lactacao)</p></li>
+                <!-- <img src= "assets/cow.png" alt= "vaca" > -->
+                </ul>
+            </div>
+            <div class = "coluna direita">
+                <h2 class="titulo_coluna">POS LACTACAO</h2>
+                <ul class="corpo">
+                <li class="item dir"> <p>custo atual de alimentacao </p></li>
+                <li class="item dir"> <p>(previsao de quanto tempo compensa segurar cada animal)  ##Colocar depois</p></li>
+                <li class="item dir"> <p>cotacao de venda</p></li>
+                <li class="item dir"><p>historico das vendas</p></li>
+                </ul>
+            </div>
+        </div>
     </body>
 </html>
