@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     width: 100vw;
     height: 100vh;
+    background-color: #a33e08;
 }
 
 header{
@@ -36,5 +37,6 @@ span {
     margin: 0rem auto 0rem auto;
     padding: 1rem;
     border: solid black 0.01rem;
+    background-color: #c78e77;
 }
 

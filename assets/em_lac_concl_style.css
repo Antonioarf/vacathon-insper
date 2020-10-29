@@ -15,6 +15,7 @@ header{
     width: 100%;
     font-size: 1.5rem; 
     border-bottom: 0.01rem solid black;
+    background-color:#155703;
 }
 
 conteiner{
@@ -37,4 +38,5 @@ span {
     margin: 0rem auto 0rem auto;
     padding: 1rem;
     border: solid black 0.01rem;
+    background-color: #77c784;
 }
