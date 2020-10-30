@@ -1,11 +1,12 @@
 body{
     background-color: #155703;
-    /* display: flex; */
 }
 .frame{
     display: block;
     flex-wrap: wrap;
     flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
 
 }
 .title{
@@ -26,6 +27,11 @@ body{
     float: left;
     width: 40%;
     height: 40%;
+    flex-direction: row;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 .texto{
     font-family: 'Heebo', sans-serif;
@@ -43,6 +49,11 @@ body{
     width: 60%;
     height: auto;
 }
+.img3{
+    margin: 0.5rem;
+    width: 60%;
+    height: auto;
+}
 .grid-container {
     display: block;
     flex-wrap: wrap;
@@ -57,4 +68,11 @@ body{
     font-family: 'Heebo', sans-serif;
     font-size: 1.5rem;
     margin-bottom: 2rem;
+}
+.btn{
+    /* background-color: #c78e77; */
+    font-family: 'Heebo', sans-serif;
+    font-size: 2rem;
+    background-color:  #77c784;
+
 }
