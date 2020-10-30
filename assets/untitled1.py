@@ -11,9 +11,9 @@ fig = plt.figure(figsize = (10, 5))
 plt.bar(courses, values,  
         width = 0.4) 
 # plt.grid(True)
-plt.xlabel("Gasto") 
-plt.ylabel("% dos custos") 
-plt.title("Custos")
+plt.xlabel("Mês") 
+# plt.ylabel("% ") 
+plt.title("Vendas")
 plt.savefig('g2.png')
 #plt.show()
 
