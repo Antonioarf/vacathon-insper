@@ -1,15 +1,50 @@
 <!DOCTYPE html>
 <html lang='pt-br'>
 	<head>
-		<title>Página principal</title>
+		<title>Pós Lactação</title>
         <meta charset ="utf-8">
         <link href= "assets/pos_lac.css" rel= "stylesheet">
         <link href= "assets/reset.css" rel= "stylesheet">
+        <script src="assets/pos_lc.js"></script>
         <link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Bitter&display=swap" rel="stylesheet">
         <meta name="viewport" content="width=device-width,initial-scale=1">
     </head>
     <body>
- 
+        <h1 class="title">Pós lactação</h1>
+    <div class="frame">
+        <div class = 'quadrante'>
+            <p class="texto">Simular nova venda</p>
+            <label for="tentacles" class="texto">Qual o Peso da vaca?</label>
+            <input type="number" id="inp" name="tentacles" onchange="myFunction(document.getElementById('inp').value)")>
+            <div class="grid-container">
+                <div class="grid-item texto2"> A vista:</div>
+                <a href="https://www.scotconsultoria.com.br/cotacoes/novilha/">
+                <div class="grid-item texto2">R$ <span id ="t1">____</span> </div>
+                <div class="grid-item texto2">R$ <span id ="t2">____</span></div> </a>
+                <div class="grid-item texto2">30 dias:</div>
+                <a href="https://www.scotconsultoria.com.br/cotacoes/novilha/">
+                <div class="grid-item texto2" >R$ <span id ="t3">____</span></div>
+                <div class="grid-item texto2" >R$ <span id ="t4">____</span></div> </a>
+            </div>
+        </div>
+
+        <div class = 'quadrante'>
+            <p class="texto" >Estão sendo gastos <span Id="din1">1000</span> reais por <button class="btn" onclick="trocaNome1()" Id="data1" >dia</button></p>
+                <img src="assets/g1.png" alt="Grafico 1" class = "img1">
+        </div>
+        <div class = 'quadrante'>
+                <p class="texto">Temos ___ animais ainda não produtivos</p>
+                <img src="assets/histo1.jpg" alt="Grafico 2" class = "img2">
+        </div>
+        
+        <div class = 'quadrante'>
+                <p class="texto">Historico das compras</p>
+                <img src="assets/g21.png" alt="Grafico 3" class = "img3">
+                <img src="assets/g22.png" alt="Grafico 3" class = "img3">
+        </div>
+    </div>
     </body>
 </html>
+
+<!--  -->

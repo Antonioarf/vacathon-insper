@@ -1,15 +1,33 @@
 <!DOCTYPE html>
 <html lang='pt-br'>
 	<head>
-		<title>Página principal</title>
+		<title>Em Lactação</title>
         <meta charset ="utf-8">
         <link href= "assets/em_lac.css" rel= "stylesheet">
         <link href= "assets/reset.css" rel= "stylesheet">
+        <script src="assets/em_lac.js"></script>
         <link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Bitter&display=swap" rel="stylesheet">
         <meta name="viewport" content="width=device-width,initial-scale=1">
     </head>
     <body>
- 
+        <h1 class="title">Em lactação</h1>
+    <div class="frame">
+        <div class = 'quadrante'>
+            <p class="texto">Nossa Produção:</p>
+            <img src="assets/g12.png" alt="Grafico 2" class = "img2">
+            <img src="assets/g13.png" alt="Grafico 3" class = "img2">
+    </div>
+        <div class = 'quadrante'>
+            <p class="texto" >Estão sendo gastos 5000 reais <button class="btn" onclick="trocaNome1()" Id="data1" >dia</button></p>
+            <img src="assets/g11.png" alt="Grafico 1" class = "img1">
+        </div>
+
+        <div class = 'quadrante'>
+                <p class="texto">Nossa Eficiência:</p>
+                <img src="assets/g12.png" alt="Grafico 4" class = "img3">
+                <img src="assets/g13.png" alt="Grafico 5" class = "img3">
+        </div>
+    </div>
     </body>
 </html>
