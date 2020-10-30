@@ -1,3 +1,6 @@
+span{
+    text-decoration: underline;
+}
 body{
     background-color: #a33e08;
     /* display: flex; */
@@ -6,6 +9,7 @@ body{
     display: block;
     flex-wrap: wrap;
     flex-direction: row;
+    align-items: center;
 
 }
 .title{
@@ -24,7 +28,7 @@ body{
     margin-left: 4rem;
     border-radius: 15px;
     float: left;
-    width: 40%;
+    width: 35%;
     height: 40%;
 }
 .texto{
@@ -57,4 +61,11 @@ body{
     font-family: 'Heebo', sans-serif;
     font-size: 1.5rem;
     margin-bottom: 2rem;
+}
+.btn{
+    /* background-color: #c78e77; */
+    font-family: 'Heebo', sans-serif;
+    font-size: 2rem;
+    background-color: #c78e77;
+
 }

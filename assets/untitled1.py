@@ -33,15 +33,18 @@ from random import randint
 # x1,x2,y1,y2 = plt.axis()
 # plt.axis((0,30,0,1))
 
-
+data1 = []
+for e in range(360):
+    data1.append(100 + randint(-50,-25))
 d1 = ["Alimento","Manutenção","IR","Folha","Outros"]
 data = [55,25,5,10,5]
+data2 = range(len(data1))
 # data2 = range(len(data))
-plt.bar(d1, data ,width = 0.4)
+plt.bar(data2, data1 ,width = 0.4)
 plt.xlabel("Data") 
-plt.ylabel("% dos custos") 
-plt.title("Historico de Vendas")
-plt.savefig('g31.png')
+plt.ylabel("% do Orçamento") 
+plt.title("Historico de Compras")
+plt.savefig('g100.png')
 #plt.show()
 
 
