@@ -1,19 +1,17 @@
 
 var a1 = 1;
-var a2 = 1;
-var a3 = 1;
 var d1 = 1000
-var d2 = 1000
-var d3 = 1000
 function trocaNome1(){
     a1++;
     localStorage.setItem("contador", a1);
     if (a1%2==0) {
         document.getElementById("data1").innerHTML = "ano" ;
-        document.getElementById("din1").innerHTML = d1*360 ;}
+        document.getElementById("din1").innerHTML = d1*360 ;
+        document.getElementById('m').src='assets/g31.png';}
     else {
     document.getElementById("data1").innerHTML = "dia" ;
     document.getElementById("din1").innerHTML = d1 ;
+    document.getElementById('m').src='assets/g11.png';
     }}
 
 document.addEventListener('DOMContentLoaded', function() {
