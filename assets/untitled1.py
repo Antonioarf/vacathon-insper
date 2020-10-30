@@ -13,31 +13,35 @@ from random import randint
 # # creating the bar plot 
 # plt.bar(courses, values,  
 #         width = 0.4) 
-data = []
-for e in range(360):
-    data.append(randint(10,20)/100)
-# for e in range(90):
-#     data.append(100+(randint(0,10)))
-# for e in range(90):
-#     data.append(100+(randint(5,15)))
-# for e in range(90):
-#     data.append(100+(randint(10,20)))
+# data = []
+# for e in range(360):
+#     data.append(randint(10,20)/100)
+# # for e in range(90):
+# #     data.append(100+(randint(0,10)))
+# # for e in range(90):
+# #     data.append(100+(randint(5,15)))
+# # for e in range(90):
+# #     data.append(100+(randint(10,20)))
     
-data = np.array(data)
-norm_cdf = scipy.stats.norm.cdf(data)
+# data = np.array(data)
+# norm_cdf = scipy.stats.norm.cdf(data)
 # data = [100+ randint(-2,4),100+ randint(-2,4),100+ randint(-2,4),100+ randint(-2,4),100+ randint(-2,4),100+ randint(-2,4),100+ randint(-2,4),100+ randint(-2,4),100+ randint(-2,4),100+ randint(-2,4),100+ randint(-2,4),100+ randint(-2,4),100+ randint(-2,4),100+ randint(-2,4),100+ randint(-2,4),100+ randint(-2,4),100+ randint(-2,4),100+ randint(-2,4),100+ randint(-2,4),100+ randint(-2,4),100+ randint(-2,4),100+ randint(-2,4),100+ randint(-2,4),100+ randint(-2,4),100+ randint(-2,4),100+ randint(-2,4),100+ randint(-2,4),100+ randint(-2,4),100+ randint(-2,4),100+ randint(-2,4)]
-data2 = range(len(data))
+
 # plt.plot(data2,data,'o')
 # sns.lineplot(x=data2, y=norm_cdf)
 # plt.grid(True)
 # x1,x2,y1,y2 = plt.axis()
 # plt.axis((0,30,0,1))
 
-plt.bar(data2, data,width = 0.4)
+
+d1 = ["Alimento","Manutenção","IR","Folha","Outros"]
+data = [55,25,5,10,5]
+# data2 = range(len(data))
+plt.bar(d1, data ,width = 0.4)
 plt.xlabel("Data") 
 plt.ylabel("% dos custos") 
 plt.title("Historico de Vendas")
-plt.savefig('g22.png')
+plt.savefig('g31.png')
 #plt.show()
 
 
